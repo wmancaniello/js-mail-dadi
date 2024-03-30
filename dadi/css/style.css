@@ -1,9 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-    background-color: red;
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("../img/table.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+  height: 700px;
+}
+
+#dado-user {
+  /* background-color: black; */
+  height: 200px;
+  width: 200px;
+}
+
+#dado-computer {
+  /* background-color: black; */
+  height: 200px;
+  width: 200px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

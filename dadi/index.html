@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dadi</title>
 
-
     <!-- Custom Style -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-    <h1>Lancio dei Dadi</h1>  
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Lancio dei dadi</h1>
+        <div id="dado-user"></div>
+        <div id="dado-computer"></div>
+        <button id="generate">Tira i dadi</button>
+        <div class="result">
+          <span>Vincitore</span>
+          <span>Dado PC:</span>
+          <span>Dado USER:</span>
+        </div>
+      </div>
+    </div>
+
+    <img src="./img/1_black.png" alt="">
     
-
     <!-- Custom Script -->
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
