@@ -21,7 +21,7 @@ lancioDadiBtn.addEventListener("click", function () {
   resultDado2.innerHTML = `<img src="./img/${dadoComputer}_red.png" alt="">`;
 
   // Determinare il vincitore con condizione
-  if
+  //   if
 });
 
 // Determinare il vincitore con condizione

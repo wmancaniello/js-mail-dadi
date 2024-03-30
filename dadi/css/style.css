@@ -17,6 +17,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: red;
+  font-size: 2rem;
 }
 
 .row {
@@ -39,6 +41,15 @@ img {
   /* background-color: black; */
   height: 200px;
   width: 200px;
+}
+
+#generate {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
 }
 
 .result {
