@@ -26,7 +26,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
   width: 700px;
   height: 700px;
 }

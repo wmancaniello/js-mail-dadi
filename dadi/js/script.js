@@ -2,7 +2,8 @@
 // alert("Ciao");
 
 // Seleziono gli elementi dall'HTML
-// Bottone
+// Raccolta Dati:
+// Immagini e bottone
 const lancioDadiBtn = document.getElementById("generate");
 let resultDado1 = document.getElementById("dado-user");
 let resultDado2 = document.getElementById("dado-computer");
@@ -21,7 +22,24 @@ lancioDadiBtn.addEventListener("click", function () {
   resultDado2.innerHTML = `<img src="./img/${dadoComputer}_red.png" alt="">`;
 
   // Determinare il vincitore con condizione
-  //   if
+  let winner;
+  if (dadoUser > dadoComputer) {
+    winner = "Hai vinto contro il computer!";
+  } else if (dadoUser < dadoComputer) {
+    winner = "Putroppo hai perso contro il computer!";
+  } else {
+    winner = "Avete pareggiato!";
+  }
+
+  // Raccolta Dati
+  // Risultati
+  let winnerGame = document.getElementById("winner");
+  let resultComputer = document.getElementById("computer");
+  let resultUser = document.getElementById("user");
+
+  winnerGame.innerHTML = `Vincitore: ${winner}`;
+  resultComputer.innerHTML = `Dado PC: ${dadoComputer}`;
+  resultUser.innerHTML = `Dado User: ${dadoUser}`;
 });
 
 // Determinare il vincitore con condizione
