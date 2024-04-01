@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
-h1 {
-    background-color: red;
+.container {
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+#text-space {
+    padding: 5px 50px;
+    font-size: 1.5rem;
+}
+
+.verify-btn {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
