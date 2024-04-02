@@ -46,5 +46,5 @@ verifyBtn.addEventListener("click", function () {
   const resultSearch = document.getElementById("result_verify");
 
   // Stampo il contenuto in pagina
-  resultSearch.innerText = message;
+  resultSearch.innerHTML = message;
 });
