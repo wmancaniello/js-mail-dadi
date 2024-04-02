@@ -26,14 +26,13 @@ verifyBtn.addEventListener("click", function () {
   let emailTrue = false;
 
   //  Ciclo for per controllo email
-
   for (let i = 0; i < email.length; i++) {
     if (textSpace === email[i]) {
       emailTrue = true;
     }
   }
 
-  //  Assegno variabile al messaggio ceh verrà stampato con il condizionale
+  //  Assegno variabile al messaggio che verrà stampato con il condizionale
   let message;
   if (emailTrue) {
     message = "L'email inserita è corretta.";
